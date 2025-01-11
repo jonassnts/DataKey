@@ -1,206 +1,277 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet"/>
-    <title>DataKey</title>
-</head>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   DataKey
+  </title>
+  <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;family=Gotham:wght@700&amp;display=swap" rel="preload"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;family=Gotham:wght@700&amp;display=swap" rel="stylesheet"/>
+ </head>
  <body>
   <header>
-   <img src="./img/DataKeyLogo.png" alt="">
+   <div class="logo">
+    <img alt="Logo da DataKey" src="./img/DataKeyLogOo.png"/>
+   </div>
+   <div class="menu-toggle" id="menu-toggle">
+    <i class="fas fa-bars">
+    </i>
+   </div>
+   <nav>
+    <ul id="menu">
+     <li>
+      <a href="#servicos">
+       Serviços
+      </a>
+     </li>
+     <li>
+      <a href="#sobre">
+       Sobre a Empresa
+      </a>
+     </li>
+     <li>
+      <a href="#equipe">
+       Equipe
+      </a>
+     </li>
+     <li>
+      <a href="#contato">
+       Contato
+      </a>
+     </li>
+    </ul>
+   </nav>
   </header>
-  <nav>
-   <a href="#services">Serviços</a>
-   <a href="#about">Sobre</a>
-   <a href="#portfolio">Portfólio</a>
-   <a href="#blog">Blog</a>
-   <a href="#contact">Contato</a>
-  </nav>
-  <section class="hero" id="home">
+  <section class="hero" id="inicio">
+   <div>
+    <h1>
+     Impulsione o seu negócio conosco!
+    </h1>
+    <p>
+     Transformando dados em decisões estratégicas
+    </p>
+    <div class="cta-buttons">
+     <a aria-label="Saiba mais sobre a empresa" href="#sobre">
+      Saiba mais
+     </a>
+     <a aria-label="Solicitar Consultoria" href="#contato">
+      Solicitar Consultoria
+     </a>
+    </div>
+   </div>
+  </section>
+  <section class="section" id="servicos">
    <h2>
-    Consultoria de Dados Profissional
+    Serviços
    </h2>
    <p>
-    BI, Data Science, RPA, Treinamentos
+    Oferecemos uma ampla gama de serviços de consultoria de dados.
    </p>
-   <a class="cta-button" href="#contact">
-    Entre em Contato
-   </a>
+   <div class="services">
+    <div class="service">
+     <i class="fas fa-database">
+     </i>
+     <h3>
+      Análise de Dados
+     </h3>
+     <p>
+      Transformamos dados brutos em informações valiosas.
+     </p>
+    </div>
+    <div class="service">
+     <i class="fas fa-chart-pie">
+     </i>
+     <h3>
+      Visualização de Dados
+     </h3>
+     <p>
+      Criamos dashboards interativos e relatórios visuais.
+     </p>
+    </div>
+    <div class="service">
+     <i class="fas fa-cogs">
+     </i>
+     <h3>
+      Automação de Processos
+     </h3>
+     <p>
+      Automatizamos processos para aumentar a eficiência.
+     </p>
+    </div>
+    <div class="service">
+     <i class="fas fa-lock">
+     </i>
+     <h3>
+      Segurança de Dados
+     </h3>
+     <p>
+      Garantimos a segurança e privacidade dos seus dados.
+     </p>
+    </div>
+    <div class="service">
+     <i class="fas fa-cloud">
+     </i>
+     <h3>
+      Consultoria em Cloud
+     </h3>
+     <p>
+      Ajudamos a migrar e gerenciar seus dados na nuvem.
+     </p>
+    </div>
+    <div class="service">
+     <i class="fas fa-brain">
+     </i>
+     <h3>
+      Inteligência Artificial
+     </h3>
+     <p>
+      Implementamos soluções de IA para otimizar seus processos.
+     </p>
+    </div>
+   </div>
   </section>
-  <section class="services" id="services">
+  
+  <section class="section" id="porque">
    <h2>
-    Nossos Serviços
+    Porque escolher a DataKey?
    </h2>
-   <div class="service-card">
-    <h3>
-     BI
-    </h3>
-    <p>
-     Transforme dados em insights acionáveis.
-    </p>
-   </div>
-   <div class="service-card">
-    <h3>
-     Data Science
-    </h3>
-    <p>
-     Descubra padrões e tendências ocultas.
-    </p>
-   </div>
-
-   <div class="service-card">
-    <h3>RPA</h3>
-    <p>Automatize tarefas e aumente a eficiência.</p>
-   </div>
-   <div class="service-card">
-    <h3>Treinamentos</h3>
-    <p>Capacite sua equipe com práticas em dados.</p>
-   </div>
+   <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+    <li>
+     Reputação sólida com excelência;
+    </li>
+    <li>
+     Rede de conhecimento com especialistas capacitados integrados;
+    </li>
+    <li>
+     Melhores preços do mercado;
+    </li>
+    <li>
+     Metodologia prática e adaptada às necessidades do seu contexto;
+    </li>
+    <li>
+     Suporte diário dedicado para garantir o sucesso do seu projeto;
+    </li>
+    <li>
+     Equipe de atendimento ao cliente acompanhando você em cada etapa;
+    </li>
+    <li>
+     Compromisso com a segurança e privacidade das suas informações;
+    </li>
+    <li>
+     Acesso às ferramentas de gestão mais inovadoras do mercado;
+    </li>
+   </ul>
   </section>
-
-
-  <section class="about" id="about">
-   <h2>Sobre a Data Key</h2>
-
-   <div class="service-card">
-    <h3>Missão</h3>
-    <p>Capacitar empresas com soluções de dados inovadoras.</p>
-   </div>
-   <div class="service-card">
-    <h3>Visão</h3>
-    <p>Ser referência em consultoria de dados no mercado.</p>
-   </div>
-   <div class="service-card">
-    <h3>Valores</h3>
-    <p>Nossos valores são a base que orienta cada decisão.</p>
-   </div>
-
-   
-  <section class="portfolio" id="portfolio">
+  <section class="section" id="equipe">
    <h2>
-    Portfólio
+    Equipe
    </h2>
-   <div class="portfolio-item">
-    <img alt="Dashboard de BI mostrando gráficos de vendas e KPIs" height="200" src="https://storage.googleapis.com/a1aa/image/qhFUA352V35EGdW9B1XNt0siLH7m1PkF4yjPHHeNQEQxy69JA.jpg" width="300"/>
-    <p>
-     Projeto de BI para empresa de varejo, aumentando as vendas em 20%.
-    </p>
-   </div>
-   <div class="portfolio-item">
-    <img alt="Modelo de Data Science prevendo churn de clientes" height="200" src="https://storage.googleapis.com/a1aa/image/srgjGCaJWS7zB1ScbdHv6i75bWbG0VuegOzKgAXLkOw1y69JA.jpg" width="300"/>
-    <p>
-     Modelo de Data Science para prever churn de clientes, reduzindo a taxa de cancelamento em 15%.
-    </p>
-   </div>
-   <div class="portfolio-item">
-    <img alt="Processo automatizado de RPA para entrada de dados" height="200" src="https://storage.googleapis.com/a1aa/image/aLuHnnYbqhJQPVHRTBVB1nTwRTbgW32O4GNkWkKakVaaZ9eJA.jpg" width="300"/>
-    <p>
-     Automação de processos com RPA, economizando 500 horas de trabalho manual por mês.
-    </p>
-   </div>
-  </section>
-  <section class="testimonials" id="testimonials">
-   <h2>
-    Depoimentos de Clientes
-   </h2>
-   <div class="testimonial">
-    <p>
-     "A Data Key transformou nossa maneira de lidar com dados. Os insights são incríveis!" - Ana Lima, CEO da Empresa X
-    </p>
-   </div>
-   <div class="testimonial">
-    <p>
-     "Os treinamentos oferecidos pela Data Key capacitaram nossa equipe de forma excepcional." - Pedro Santos, Gerente de TI da Empresa Y
-    </p>
-   </div>
-   <div class="testimonial">
-    <p>
-     "A automação de processos com RPA foi um divisor de águas para nossa produtividade." - Carla Mendes, Diretora da Empresa Z
-    </p>
-   </div>
-  </section>
-  <section class="blog" id="blog">
-   <h2>
-    Blog
-   </h2>
-   <div class="blog-post">
-    <img alt="Imagem ilustrativa de um gráfico de tendências de dados" height="200" src="https://storage.googleapis.com/a1aa/image/22D0At76mcZ6NBGzfpwEKwmoY5J8fuEYtqtmaLaafDeVWWvPB.jpg" width="300"/>
-    <h3>
-     Tendências em BI <br>para 2023
-    </h3>
-    <p>
-     Descubra as principais tendências em Business Intelligence para o próximo ano.
-    </p>
-   </div>
-   <div class="blog-post">
-    <img alt="Imagem ilustrativa de um cientista de dados trabalhando" height="200" src="https://storage.googleapis.com/a1aa/image/4G6gopcImCquIlE2uI6oFe38RcCBB1OAmSQahffXXidRLr3nA.jpg" width="300"/>
-    <h3>
-     Como a Ciência de Dados pode transformar seu negócio
-    </h3>
-    <p>
-     Entenda como a ciência de dados pode trazer vantagens competitivas para sua empresa.
-    </p>
-   </div>
-   <div class="blog-post">
-    <img alt="Imagem ilustrativa de um robô automatizando processos" height="200" src="https://storage.googleapis.com/a1aa/image/jgQSNC0JpfVUI6eusDeHRKiKe6mHPEM5nQjAlBMIUcg2WWvPB.jpg" width="300"/>
-    <h3>
-     RPA: O futuro da automação de processos
-    </h3>
-    <p>
-     Saiba mais sobre a automação de processos robóticos e suas aplicações.
-    </p>
+   <p>
+    Conheça os especialistas por trás da DataKey.
+   </p>
+   <div class="team">
+    <div class="team-member">
+     <img alt="Foto de um membro da equipe" src="https://placehold.co/150x150"/>
+     <h3>
+      Pedro Adorno
+     </h3>
+     <p>
+      CEO &amp; Fundador
+     </p>
+    </div>
+    <div class="team-member">
+     <img alt="Foto de um membro da equipe" src="https://placehold.co/150x150"/>
+     <h3>
+      Jonas Santos
+     </h3>
+     <p>
+      CEO &amp; Co-Fundador
+     </p>
+    </div>
+    <div class="team-member">
+     <img alt="Foto de um membro da equipe" src="https://placehold.co/150x150"/>
+     <h3>
+      Renan Silva
+     </h3>
+     <p>
+        CEO &amp; Co-Fundador
+     </p>
+    </div>
    </div>
   </section>
 
-  <section class="about" id="about"></section>
-  <h2>Nossa Equipe</h2>
-   <div class="team-member">
-   <img height="100" src="https://storage.googleapis.com/a1aa/image/jyb0Ad6nVoaAEpmjfwOt2YCICxvhGHkEJt8ROF1kZgv3y69JA.jpg" width="100"/>
-   <p>Pedro Adorno</p>
-   <p>CEO</p>
-  </div>
-  <div class="team-member">
-   <img height="100" src="https://storage.googleapis.com/a1aa/image/jyb0Ad6nVoaAEpmjfwOt2YCICxvhGHkEJt8ROF1kZgv3y69JA.jpg" width="100"/>
-   <p>Jonas Santos</p>
-   <p>CEO</p>
-  </div>
-  <div class="team-member">
-   <img height="100" src="https://storage.googleapis.com/a1aa/image/jyb0Ad6nVoaAEpmjfwOt2YCICxvhGHkEJt8ROF1kZgv3y69JA.jpg" width="100"/>
-   <p>Renan Silva</p>
-   <p>CEO</p>
-  </div>
- </section>
+  <section class="section" id="sobre">
+    <h2>
+     Sobre a Empresa
+    </h2>
+    <p>
+     A DataKey é uma empresa de consultoria de dados recém-inaugurada, dedicada a transformar dados em decisões estratégicas. Nossa missão é fornecer insights valiosos que ajudem nossos clientes a alcançar seus objetivos de negócios. Com uma equipe de especialistas em análise de dados, visualização de dados e automação de processos, estamos comprometidos em oferecer soluções inovadoras e personalizadas para cada cliente. Nossa visão é nos tornarmos a principal consultoria de dados do mercado, reconhecida por nossa integridade, inovação e compromisso com resultados.
+    </p>
+   </section>
 
-  <section class="contact" id="contact">
+  <section class="section" id="contato">
    <h2>
     Contato
    </h2>
+   <p>
+    Entre em contato conosco.
+   </p>
    <div class="contact-form">
-    <input placeholder="Nome" required="" type="text"/>
-    <input placeholder="E-mail" required="" type="email"/>
-    <textarea placeholder="Mensagem" required="" rows="5"></textarea>
-    <button type="submit">
+    <input aria-label="Nome" placeholder="Nome" type="text"/>
+    <input aria-label="E-mail" placeholder="E-mail" type="email"/>
+    <textarea aria-label="Mensagem" placeholder="Mensagem"></textarea>
+    <button>
      Enviar
     </button>
    </div>
-   <p>
-    Email: contato@datakey.com.br
-   </p>
-   <p>
-    Telefone: (11) 1234-5678
-   </p>
-   <p>
-    Endereço: Rua Exemplo, 123, São Paulo, SP
-   </p>
   </section>
   <footer>
    <p>
-    © 2025 Data Key. Todos os direitos reservados.
+    © 2025 DataKey. Todos os direitos reservados.
    </p>
+   <div class="social-icons">
+    <a href="#">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-linkedin-in">
+     </i>
+    </a>
+   </div>
   </footer>
+  <script>
+   const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+        const header = document.querySelector('header');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+  </script>
  </body>
 </html>
